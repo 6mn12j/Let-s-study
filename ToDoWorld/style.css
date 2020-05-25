@@ -1,0 +1,27 @@
+
+
+h1{
+    font-family: 'VT323', monospace;
+    background-color: #ff0044;
+    color:#00ffff;
+    padding:10px;
+    text-shadow:2px 2px 2px rgb(42, 8, 122);
+
+}
+.box { 
+    font-family: 'VT323', monospace;
+    padding:5px;
+    border-radius : 10px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color: #ff0044; 
+ 
+  
+  } 
+  form{
+      padding:5px;
+      border-radius : 10px;
+      border-width: 5px; 
+      border-style: solid; 
+      border-color:#5555bb;
+  }
