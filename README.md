@@ -43,7 +43,7 @@ Momentom을 클론 코딩.
 
 
 
-![example](./WhenIsChritsmas.PNG)
+![example](./WhenIsChristmas/WhenIsChritsmas.PNG)
 
 ***
 ### cote
