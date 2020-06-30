@@ -2,12 +2,12 @@
 study hard !!
 
 
-공부한것을 기록합니다.자질 구레하지만 것들이 올라옵니다.
+공부한것을 기록합니다.자질구레한 것들이 올라옵니다.
 
 
 ### Calculate
 기본적인 계산기 마크업해보기.
-![exampleimg](./Calculate/calculate_example.PNG)
+![exampleimg](./Calculate/calcualte_example.PNG)
 ***
 ### Country
 어디지역인지 선택.
