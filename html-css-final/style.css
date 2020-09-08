@@ -1,0 +1,180 @@
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+button{
+    all:unset;
+}
+
+.sr-only{
+    display: none;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: #2b292d;
+    letter-spacing: -0.01em;
+  }
+
+.Landing{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    text-align: center;
+    
+    width:100%;
+    height: 568px;
+    background-color:#FDDED8;
+
+}
+
+.Landing-title{
+    font-weight: bold;
+    font-size:40px;
+
+}
+
+.Landing-description{
+    font-size:16px;
+    margin-bottom:24px;
+}
+
+.Landing-button-group button{
+    width:140px;
+    height: 48px;
+    text-align: center;
+}
+
+.button-apply{
+    background-color: #3040C4;
+    color:#fff;
+    margin-right:8px;
+}
+
+.button-lean{
+    background-color:#fff;
+    color:#3040C4;
+}
+
+.service{
+    width:100%;
+    height: 496px;
+    background-color:#f4f5f7;
+    padding:80px 15px;
+}
+
+
+.service-title{
+    font-weight: bold;
+    font-size:22px;
+    font-style:bold;
+    margin-bottom: 16px;
+}
+
+.service-description{
+    margin-bottom:40px;
+}
+
+.section-category{
+    margin-bottom: 3px;;
+    font-size:16px;
+    color:#009b4d;
+    
+}
+
+.curriculum .section-category{
+    color:#0189D1;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size:34px;
+    margin-bottom: 24px;
+}
+
+.section-description{
+    font-size: 16px;
+    margin-bottom:32px;
+}
+
+.program{
+    padding:80px 15px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: flex-start;
+    width:100%;
+    height: 1377px;
+}
+
+.program-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width:290px;
+    height: 291px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background: #fafafa;
+    box-shadow:  5px -5px 9px #f3f3f3, 
+                -5px 5px 9px #ffffff;
+    
+}
+
+.box-image{
+    width:140px;
+    height: 195px;
+}
+
+.box-title{
+    font-size:18px;
+    font-weight: bold;
+}
+
+
+.curriculum{
+    padding:80px 15px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: flex-start;
+    width:100%;
+    height: 706px;
+}
+
+.curriculum-description{
+    font-size:16px;
+    margin-bottom: 32px;
+    
+}
+
+.curriculum-detail{
+    margin-bottom: 40px;
+}
+
+
+button.curriculum-button {
+    width:140px;
+    font-size:15px;
+    background-color: #3040c4;
+    color:#fff;
+    text-align: center;  
+    padding:14px 0 ;
+    margin-bottom: 40px;
+    
+}
+
+.banner{
+    width:100%;
+    height: 588px;
+}
+
+.footer{
+    width:100%;
+    height: 136px;
+}
