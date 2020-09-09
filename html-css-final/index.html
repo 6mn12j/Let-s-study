@@ -12,7 +12,7 @@
 
 <body>
     <section class="Landing">
-        <h1 class="Landing-title">Change your career,<br>Change your<br>life</h1>
+        <h1 class="Landing-title">Change your career,<br>Change your life</h1>
         <p class="Landing-description">Get ahead with expert-led training in <br>coding & design</p>
         <div class="Landing-button-group">
             <button class="button-apply" type="button">
@@ -28,7 +28,8 @@
         <div class="row">
             <section class="service">
                 <h2 class="sr-only">Testimonials</h2>
-                <div class="col-12 col-md-6 first-service">
+                
+                <div class="first-service col-12 col-md-6 ">
                     <h1 class="service-title">
                         Master the Fundamentals while Exploring new Tech
                     </h1>
@@ -36,7 +37,7 @@
                         We teach cutting-edge tech Full Stack Javascript as well as Computer Science fundamentals.
                     </p>
                 </div>
-                <div class="col-12 col-md-6 second-service">
+                <div class="second-service col-12 col-md-6 ">
                     <h1 class="service-title">
                         Develop Production Level <br>Web Applications
                     </h1>
@@ -80,13 +81,15 @@
 
     <section class="curriculum">
         <div class="curriculum-box">
-            <strong id="title" class="section-category">Curriculum</strong>
+            <div class="left-curriculum">
+                <strong id="title" class="section-category">Curriculum</strong>
             <h2 class="section-title">Dive into the web development</h2>
             <p class="curriculum-description">Dive into the software development environment and the basics of computing,
                 networks, and data structures.</p>
                 <button type="button" class="curriculum-button">
                     Apply now
                 </button>
+            </div>
         </div>
         <div class="container-fuild">
             <div class="row">
@@ -102,16 +105,22 @@
         </div>
     </section>
 
-    <section class="banner center">
-        <img class="banner-image" src="./assets/img-subscription.png" alt="">
+    <section class="banner">
         <h1 class="sr-only">banner</h1>
-        <strong class="banner-title">Stay with us</strong>
-        <p class="banner-description">Subscribe to our email newsletter to stay up to date on the latest updates</p>
+        <div class="image-box">
+            <img class="banner-image" src="./assets/img-subscription.png" alt="">
+        </div>
+        
+        <div class="content-box">
+            <strong class="banner-title">Stay with us</strong>
+            <p class="banner-description">
+                Subscribe to our email newsletter to stay up to date on the latest updates</p>
         <div class="form-group">
             <form action="#" method="GET" > </form>
             <input type="email" class = "banner-input" placeholder = "Enter your email" >
             <button type="button" class="banner-button">Get Started</button>
             <p class="check">Cancel any time. Check out <a href="#">Terms of Use.</a></p>
+        </div>
         </div>
     </section>
 
