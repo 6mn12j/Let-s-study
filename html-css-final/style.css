@@ -32,7 +32,7 @@ body {
     text-align: center;
     
     width:100%;
-    height: 568px;
+    height:568px;
     background-color:#FDDED8;
 
 }
@@ -70,11 +70,13 @@ body {
     width:100%;
     height: 496px;
     background-color:#f4f5f7;
-    padding:60px 233px;
+    padding:80px 15px;
+    position: relative;
 }
 
 
 .service-title{
+    position: relative;
     font-weight: bold;
     font-size:22px;
     font-style:bold;
@@ -87,9 +89,10 @@ body {
     letter-spacing: -0.01em;
 }
 
-.second-service .first-srvice{
-    
-    padding:20px 21px !important;
+.second-service, .first-service{
+    padding:10px 30px;
+
+ 
 }
 .section-category{
     margin-bottom: 3px;;
@@ -190,7 +193,7 @@ button.curriculum-button {
     height: 588px;
     padding:40px 15px;
     background-color:#F2F8FA;
-
+    text-align: center;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -199,6 +202,7 @@ button.curriculum-button {
 .banner-title{
     font-size:32px;
     font-weight: bold;
+    margin-bottom:16px;
 }
 
 .banner-image{
@@ -208,10 +212,11 @@ button.curriculum-button {
 }
 
 .banner-description{
-    font-size:15px;
+    font-size:16px;
     line-height: 24px;
     letter-spacing: -0.01em;
-    text-align: center;
+    text-align: left;
+    padding:0 30px;
 
 }
 
