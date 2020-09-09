@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+
+body{
+    height: 100vh;
+    background-color: steelblue;
+    font-family: 'Lato', sans-serif;
+}
+button,
+input,
+textarea{
+    font-family: 'Lato', sans-serif;
+}
+
+button{
+    all:unset;    
+}
+
+
+.line-button{
+    padding:18px 30px;
+    font-size: 16px;
+    line-height: 1.25;
+    background-color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.line-button::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:0;
+    height:2px;
+    background-color: #0066FF;
+    transition: width 250ms ease-in;
+}
+
+.line-button:hover::after{
+    width:100%;
+}
+

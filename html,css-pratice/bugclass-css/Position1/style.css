@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  h1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #273444;
+  }
+  
+  /* ▼ WHERE YOUR CODE BEGINS */
+  .user-card::after{
+      content:'';
+      display:block;
+      clear:left
+  }
+  .user-photo,
+  .user-name{
+      float:left;
+  }
+.user-name{
+    padding:8px 0px;
+}
+  .user-photo{
+      margin-right: 12px;
+  }
+
+  .user-photo img{
+      display:block;
+      width: 40px;
+      height:40px;
+      border-radius: 50%;
+      left:12px;
+      top:8px;
+
+
+  }
+
+  .user-card{
+      
+    width: 240px;
+    height: 56px;
+    padding:8px 12px;
+    background-color:#ffffff;
+    border:1px solid #E5E5E5;
+    border-radius: 4px;
+
+  }
+
+  .user-photo{
+    position: relative;;
+  }
+  .user-status{
+      position: absolute;
+      background-color:#21D891; 
+      width:12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid #FFFFFF;
+      bottom:-2px;
+      right:-2px;
+  }
+  
+  .user-name{
+      top:16px;
+  }
