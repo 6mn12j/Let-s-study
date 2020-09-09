@@ -18,6 +18,10 @@ body {
     letter-spacing: -0.01em;
   }
 
+
+#title{
+    font-weight: bold;
+}
 .Landing{
     display: flex;
     flex-flow: column;
@@ -35,6 +39,7 @@ body {
 .Landing-title{
     font-weight: bold;
     font-size:40px;
+    font-weight: bold;
 
 }
 
@@ -73,16 +78,19 @@ body {
     font-size:22px;
     font-style:bold;
     margin-bottom: 16px;
+    letter-spacing: -0.04em;
 }
 
 .service-description{
     margin-bottom:40px;
+    letter-spacing: -0.01em;
 }
 
 .section-category{
     margin-bottom: 3px;;
     font-size:16px;
     color:#009b4d;
+    letter-spacing: -0.03em;
     
 }
 
@@ -99,6 +107,8 @@ body {
 .section-description{
     font-size: 16px;
     margin-bottom:32px;
+    letter-spacing: -0.01em;
+
 }
 
 .program{
@@ -129,6 +139,7 @@ body {
 .box-image{
     width:140px;
     height: 195px;
+    margin-bottom: 16px;
 }
 
 .box-title{
@@ -172,9 +183,167 @@ button.curriculum-button {
 .banner{
     width:100%;
     height: 588px;
+    padding:40px 15px;
+    background-color:#F2F8FA;
+}
+.banner-title{
+    font-size:32px;
+    font-weight: bold;
+}
+
+.banner-image{
+    widows: 290px;
+    height: 240px;
+    margin-bottom:16px;
+}
+
+.banner-description{
+    font-size:15px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+}
+
+.banner-input{
+    width:290px;
+    height: 48px;
+    margin-bottom:8px;
+    border:0px #fff solid;
+}
+.banner-button{
+    width:290px;
+    height: 48px;
+    text-align: center;
+    border-radius: 2px;
+    border:1px solid #3040C4;
+    background-color:#3040C4;
+    color:#fff;
+    margin-bottom:8px;
+}
+
+.check{
+    color:#7B7B7E;
+    font-size:13px;
 }
 
 .footer{
     width:100%;
     height: 136px;
+    
+}
+
+.center{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > a {
+    font-size:14px;
+    color:#807F81;
+
+    
+}
+
+@media screen and (min-width: 768px) {
+    .Landing{
+        height: 568px;
+        padding:120px 255px;
+    }
+
+    .Landing-title{
+        width:930px;
+        font-size: 70px;
+        text-align: center;
+        line-height: 72px;
+        letter-spacing: -0.05em;
+    }
+
+    .Landing-description{
+        font-size:22px;
+    }
+    .Landing-button-group > button{
+        font-weight: bold;
+    }
+
+    .service{
+        height:340px;
+        padding-top:80px;
+        padding-bottom: 80px;
+    }
+
+    .service-title {
+        font-size:26px;
+        font-style:normal;
+    }
+
+    .service-description{
+        font-size:22px;
+        font-weight: normal !important;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+    }
+
+    .program{
+        height: 827px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .program-box{
+        width:290px;
+        height: 299px;
+    }
+
+    .section-category{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.01em;
+    }
+
+    .section-title{
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: -0.03em;
+
+    }
+
+    .section-description{
+        width: 770px;
+        left: calc(50% - 770px/2);
+        top: 264px;
+        line-height: 32px;
+        /* or 145% */
+        text-align: center;
+        letter-spacing: -0.01em;
+        height: 96px;
+    }
+
+    .curriculum{
+        height: 728px;
+        padding:15px 255px;
+    }
+
+    .curriculum-box{
+        widows: 450px;
+        height: 403px;;
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .curriculum-box:after{
+        width:450px;
+        height: 450px;
+        background-color: steelblue;
+    }
+    
 }
