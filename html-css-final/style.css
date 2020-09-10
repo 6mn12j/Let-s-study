@@ -6,7 +6,10 @@
 
 button{
     all:unset;
+    cursor: pointer;
 }
+
+
 
 .sr-only{
     display: none;
@@ -89,11 +92,14 @@ body {
     letter-spacing: -0.01em;
 }
 
-.second-service, .first-service{
-    padding:10px 30px;
 
- 
+.service > h1{
+    margin-top:0 !important;
 }
+
+
+
+
 .section-category{
     margin-bottom: 3px;;
     font-size:16px;
@@ -142,6 +148,12 @@ body {
     box-shadow:  5px -5px 9px #f3f3f3, 
                 -5px 5px 9px #ffffff;
     
+    transition:background-color 0.5s;
+}
+
+.program-box:hover{
+    background-color:#3040c4;
+    cursor: pointer;
 }
 
 .box-image{
@@ -255,11 +267,19 @@ button.curriculum-button {
     align-items: center;
 }
 
+footer{
+    display:flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding:24px 15px;
+}
+
 footer > a {
     font-size:14px;
     color:#807F81;
+    margin-bottom: 8px;
 
-    
 }
 
 @media screen and (min-width: 768px) {
@@ -290,8 +310,7 @@ footer > a {
 
     .service{
         height:340px;
-        padding-top:80px;
-        padding-bottom: 80px;
+        padding:60px 200px;
     }
 
     .service-title {
@@ -307,6 +326,21 @@ footer > a {
         letter-spacing: -0.01em;
     }
 
+    .first-service, .second-service{
+        padding:0 10px;
+    }
+
+    .first-service > p{
+        padding-right:10px;
+    }
+    .second-service{
+        padding:0 0;
+    }
+
+    .second-service > p {
+        padding-right:0;
+    }
+ 
 
     .program{
         height: 827px;
@@ -447,4 +481,14 @@ footer > a {
         align-items: flex-start;
     }
     
+    footer{
+        flex-flow: row;
+        justify-content:start;
+        padding-top:16px;
+        padding-bottom:16px;
+        padding-left:255px;
+    }
+    footer > a{
+        margin-right:16px;
+    }
 }
